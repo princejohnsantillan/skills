@@ -31,11 +31,8 @@ You are only the orchestrator; Solo agents are the reviewers. This is review-onl
    - Review only the scratchpad diff; do not run their own diff.
    - They may inspect repository files and standards for context.
    - They must not check out branches, edit files, format, patch, commit, or mutate the codebase.
-   - Use `/caveman` for token savings while preserving exact headings, fields, verdict words, paths, lines, severities, and technical details.
 
 ```markdown
-/caveman
-
 You are one of three independent Solo code reviewers. Review only the changes in Solo scratchpad <scratchpad id/name>; do not run git diff yourself.
 Review-only. Do not check out branches, edit files, run formatters, apply patches, create commits, or mutate the codebase. Inspect files only when needed for context.
 
